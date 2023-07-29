@@ -1,0 +1,122 @@
+/* ----------- Header style start here ----------- */
+.advancePage-links a{
+    text-decoration: none;
+    color: black;  
+    font-weight: 100;
+  }
+
+
+.advancePage-links{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.advancePage-links a:hover{
+    text-decoration: underline;
+} 
+
+
+.home-img{
+    width: 7rem;
+}
+
+
+.advancePage-links div a{
+     margin-right: 10px;
+    font-size: 1.5rem;  
+}
+
+
+.advancePage-links div{
+margin-right: 1rem;
+margin-left: 1rem;
+margin-top: 1.5rem;
+}
+/* ----------- Header style End here ----------- */
+
+
+
+
+
+.page-heading{
+    font-size: 2.3rem;
+    font-weight: 200;
+    color: red;
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+}
+
+
+.line{
+    margin-top: 2.5rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+
+.paragraphs{
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    font-size: 1.9rem;
+    display: flex;
+    flex-direction: row;
+    gap:45.5%;
+}
+
+
+
+
+
+
+
+/* ----------- Form style start here ----------- */
+form div {
+    display: grid;
+    grid-template-columns: 11% 40% 20%;
+    align-items: center;
+    column-gap: 3rem;
+    margin-left: 3.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+form div input{
+    border: 0.1rem solid rgba(150, 150, 150, 1);
+    height: 2.5rem;
+}
+
+
+form div input:focus{
+    outline: none;
+    border: 0.1rem solid rgba(0, 0, 255, 1);
+}
+
+.button{
+padding: 1rem;
+background-color: #0096FF;
+color: white;
+font-weight: 700;
+margin-top: 3rem; 
+margin-left: 45%;
+
+}
+/* ----------- Form style end here ----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
